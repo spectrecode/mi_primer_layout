@@ -1,0 +1,68 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	width: 70%;
+	margin: 20px auto;
+}
+.perfildetallado{
+	width: 100%;
+	border: 2px solid gray;
+	padding: 30px;
+}
+.fotoprincipal{
+	position: relative;
+	left: 300px;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background-position: 200px 200px;
+	background-image: url("../img/profile-1.png");
+}
+h2{
+	font-size: 40px;
+	text-align: center;
+}
+h3{
+	font-size: 30px;
+}
+p{
+	width: 100%;
+	text-align: center;
+	font-size: 24px;
+}
+.html, .css, .java{
+	font-size: 20px;
+	height: 60px;
+	background-color: gray;
+	color:white;
+	margin: 20px;
+	padding: 20px;
+}
+.html{
+	width: 600px;
+}
+.css{
+	width: 450px;
+}
+.java{
+	width: 300px;
+}
+.izquierda, .central, .derecha{
+	width: 250px;
+	height: 200px;
+	background-size: cover;
+	margin: 10px;
+	display: inline-block;
+}
+.izquierda{
+	background-image: url("../img/p5.jpg");
+}
+.central{
+	background-image: url("../img/p6.jpg");
+}
+.derecha{
+	background-image: url("../img/p8.jpg");
+}
+
+/* Ingresa tu css aqui */

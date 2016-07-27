@@ -1,0 +1,104 @@
+*{
+	box-sizing: border-box;
+	padding: 0px;
+	margin: 0px auto;
+}
+body{
+	width: 50%;
+}
+.lineavertical {
+	border-right:1px solid black;
+}
+header nav ul{
+	list-style: none;
+}
+header nav ul li{
+	padding: 0px 10px;
+	float: left;
+}
+header nav ul li a{
+	padding: 0px 14px;
+	display: block;
+	text-decoration: none;
+	color: black;
+	font-size: 22px;
+}
+.logo{
+	margin: 30px auto;
+}
+.lineagray{
+	border: 2px solid gray;
+	width: 50px;
+	margin: 16px auto;
+}
+p{
+	width: 70%;
+	font-size: 24px;
+	text-align: center;
+}
+li {
+	text-align: center;
+}
+.imagengrupal{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.borde1{
+	border-top: 1px solid black;
+	padding: 20px 0px;
+	border-bottom: 1px solid black;
+	line-height: 5px;
+}
+.linea{
+	margin: 10px;
+	width: 80px;
+	border: 2px solid black;
+}
+.fila{
+	display: inline-block;
+}
+.primera, .segunda, .tercera, .cuarta, .quinta, .sexta{
+	width: 185px;
+	height: 185px;
+	background-position: 200px 200px;
+	margin:10px;
+	display: inline-block;
+	position: relative;
+}
+.primera{
+	background-image: url("../img/profile-1.png");
+}
+.segunda{
+	background-image: url("../img/profile-2.png");
+}
+.tercera{
+	background-image: url("../img/profile-3.png");
+}
+.cuarta{
+	background-image: url("../img/profile-4.png");
+}
+.quinta{
+	background-image: url("../img/profile-5.png");
+}
+.sexta{
+	background-image: url("../img/profile-6.png");
+}
+.nombre a{
+	text-decoration: none;
+	color: white;
+}
+.nombre{
+	position: absolute;
+	color: white;
+	bottom: 0;
+	right: 0;
+	margin: 6px;
+}
+.overlay{
+	background: rgba(0, 0, 0, 0.4);
+	position: absolute;
+	top:0;
+	left:0;
+	right: 0;
+	bottom: 0;
+}
